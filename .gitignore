@@ -1,0 +1,31 @@
+# Sanal ortam
+.venv/
+venv/
+env/
+
+# API Anahtarları — ASLA git'e ekleme
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Log dosyaları
+*.log
+graphrag.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dağıtım
+dist/
+build/
+*.egg-info/
